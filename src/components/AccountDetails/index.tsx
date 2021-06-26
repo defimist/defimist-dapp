@@ -173,7 +173,6 @@ const WalletAction = styled.button`
   width: fit-content;
   font-weight: 700;
   font-size: 11px;
-  letter-spacing: 0.08em;
   color: ${({ theme }) => theme.text1};
   background-color: ${({ theme }) => theme.bg3};
   padding: 8px 14px;

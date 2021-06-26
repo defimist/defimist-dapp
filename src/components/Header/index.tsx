@@ -155,7 +155,7 @@ export const StyledNavLink = styled(NavLink).attrs({
   margin: 0 16px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19.5px;
+  line-height: 36px;
 
   &.${activeClassName} {
     font-weight: 600;
@@ -173,7 +173,7 @@ const StyledNavLinkWithBadge = styled.a`
   cursor: not-allowed;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19.5px;
+  line-height: 36px;
   color: ${({ theme }) => transparentize(0.6, theme.text5)};
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
     display: none;
@@ -196,7 +196,7 @@ const StyledExternalLink = styled(ExternalLink).attrs({
   color: ${({ theme }) => theme.text5};
   font-weight: 400;
   font-size: 16px;
-  line-height: 19.5px;
+  line-height: 36px;
   width: fit-content;
   text-decoration: none !important;
   margin: 0 12px;
@@ -271,7 +271,6 @@ function Header({ history }: { history: any }) {
                 fontWeight={700}
                 fontSize="12px"
                 lineHeight="15px"
-                letterSpacing="0.08em"
               >
                 {userNativeCurrencyBalance?.toSignificant(4)} {nativeCurrency.symbol}
               </TYPE.white>

@@ -39,7 +39,6 @@ const BadgeText = styled.div<{ upcoming?: boolean; expired?: boolean }>`
   font-weight: 600;
   font-size: 9px;
   line-height: 11px;
-  letter-spacing: 0.02em;
   color: ${props => (props.expired ? props.theme.red2 : props.upcoming ? props.theme.yellow2 : props.theme.green2)};
 `
 

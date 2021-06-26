@@ -77,7 +77,7 @@ export default function List({ stakablePair, loading, items }: LiquidityMiningCa
             </ListLayout>
           ) : (
             <Empty>
-              <Text fontSize="12px" fontWeight="700" lineHeight="15px" letterSpacing="0.08em">
+              <Text fontSize="12px" fontWeight="700" lineHeight="15px">
                 NO REWARD POOLS HERE YET
               </Text>
             </Empty>

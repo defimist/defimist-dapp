@@ -23,7 +23,6 @@ const CardText = styled(Text)`
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.08em;
   text-transform: uppercase;
 `
 

@@ -238,7 +238,7 @@ interface NetworkDetails {
 export const NETWORK_DETAIL: { [chainId: number]: NetworkDetails } = {
   [ChainId.MAINNET]: {
     chainId: `0x${ChainId.MAINNET.toString(16)}`,
-    chainName: 'Ethereum mainnet',
+    chainName: 'Ethereum (mainnet)',
     nativeCurrency: {
       name: Currency.ETHER.name || 'Ether',
       symbol: Currency.ETHER.symbol || 'ETH',
@@ -249,9 +249,9 @@ export const NETWORK_DETAIL: { [chainId: number]: NetworkDetails } = {
   },
   [ChainId.DM]: {
     chainId: `0x${ChainId.DM.toString(16)}`,
-    chainName: 'DM',
+    chainName: 'Defimist (mainnet)',
     nativeCurrency: {
-      name: Currency.DM.name || 'DM',
+      name: Currency.DM.name || 'Defimist',
       symbol: Currency.DM.symbol || 'DM',
       decimals: Currency.DM.decimals || 18
     },

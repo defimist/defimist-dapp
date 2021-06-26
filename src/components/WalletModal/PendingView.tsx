@@ -99,7 +99,6 @@ export default function PendingView({
                 fontWeight="500"
                 fontSize="20px"
                 lineHeight="24px"
-                letterSpacing="-0.01em"
                 marginBottom="24px"
               >
                 Error connecting.
@@ -117,7 +116,7 @@ export default function PendingView({
           ) : (
             <>
               <StyledLoader />
-              <TYPE.body color="text4" fontWeight="500" fontSize="20px" lineHeight="24px" letterSpacing="-0.01em">
+              <TYPE.body color="text4" fontWeight="500" fontSize="20px" lineHeight="24px">
                 Initializing...
               </TYPE.body>
             </>

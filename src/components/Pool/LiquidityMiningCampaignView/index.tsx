@@ -15,7 +15,6 @@ import { RowBetween } from '../../Row'
 const GoBackContainer = styled.div`
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.08em;
   cursor: pointer;
   text-transform: uppercase;
   display: flex;
@@ -26,7 +25,6 @@ const USDValueSwitcherContainer = styled.div`
   font-size: 11px;
   font-weight: 600;
   line-height: 11px;
-  letter-spacing: 0.08em;
   text-transform: uppercase;
   cursor: pointer;
 `

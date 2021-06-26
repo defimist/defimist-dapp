@@ -27,7 +27,6 @@ const Label = styled.span`
   font-weight: 600;
   font-size: 11px;
   line-height: 11px;
-  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: ${props => props.theme.white};
 `

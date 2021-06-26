@@ -74,15 +74,15 @@ export function ImportList({ listURI, list, onBack, onDismiss, setModalView }: I
       </PaddedColumn>
       <AutoColumn>
         <AutoColumn gap="16px" style={{ padding: '20px', paddingTop: '12px' }}>
-          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" letterSpacing="-0.02em" color="text4">
+          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" color="text4">
             Anyone can create an ERC20 token list on Ethereum, including creating fake versions of existing tokens lists
             and lists that claim to represent projects that do not have an actual list.
           </TYPE.body>
-          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" letterSpacing="-0.02em" color="text4">
+          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" color="text4">
             This interface can load arbitrary lists by URL. Please take extra caution and do your research when
             interacting with arbitrary token lists.
           </TYPE.body>
-          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" letterSpacing="-0.02em" color="text4">
+          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" color="text4">
             If you purchase a token from this list, <strong>you may be unable to sell it back.</strong>
           </TYPE.body>
         </AutoColumn>

@@ -49,7 +49,7 @@ export default function AssetSelector({ title, currency0, currency1, onClick }: 
   return (
     <Flex flexDirection="column">
       <Box mb="16px">
-        <TYPE.small fontWeight="600" color="text4" letterSpacing="0.08em">
+        <TYPE.small fontWeight="600" color="text4">
           {title}
         </TYPE.small>
       </Box>

@@ -70,7 +70,7 @@ export default function Time({
         </Box>
         <ResponsiveFlexContainer flexDirection="column">
           <Box mb="16px">
-            <TYPE.small fontWeight="600" color="text4" letterSpacing="0.08em">
+            <TYPE.small fontWeight="600" color="text4">
               TIMELOCK
             </TYPE.small>
           </Box>

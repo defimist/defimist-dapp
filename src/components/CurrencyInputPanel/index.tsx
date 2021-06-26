@@ -33,7 +33,6 @@ const CurrencySelect = styled.button<{ selected: boolean }>`
   user-select: none;
   border: none;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
 `
 
 const LabelRow = styled.div`
@@ -85,13 +84,11 @@ const StyledTokenName = styled.span<{ active?: boolean }>`
   margin: ${({ active }) => (active ? '0 0 0 6px' : '0')};
   font-size: ${({ active }) => (active ? '16px' : '11px')};
   line-height: ${({ active }) => (active ? '20px' : '13px')};
-  letter-spacing: 0.08em;
 `
 
 const StyledBalanceMax = styled.button`
   font-size: 11px;
   line-height: 13px;
-  letter-spacing: 0.08em;
   cursor: pointer;
   margin-right: 4px;
   color: ${({ theme }) => theme.purple3};
@@ -168,7 +165,7 @@ export default function CurrencyInputPanel({
           {!hideInput && (
             <LabelRow>
               <RowBetween>
-                <TYPE.body fontWeight="600" fontSize="11px" lineHeight="13px" letterSpacing="0.08em">
+                <TYPE.body fontWeight="600" fontSize="11px" lineHeight="13px">
                   <UppercaseHelper>{label}</UppercaseHelper>
                 </TYPE.body>
                 {account && (
@@ -177,7 +174,6 @@ export default function CurrencyInputPanel({
                     fontWeight="600"
                     fontSize="11px"
                     lineHeight="13px"
-                    letterSpacing="0.08em"
                     style={{ display: 'inline', cursor: 'pointer' }}
                   >
                     <UppercaseHelper>

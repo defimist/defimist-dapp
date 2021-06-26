@@ -14,7 +14,7 @@ export default function RewardSummary({ reward, apy }: RewardSummaryProps) {
   return (
     <Flex flexDirection="column" justifyContent="stretch" width="100%">
       <AutoColumn gap="8px">
-        <TYPE.small fontWeight="600" color="text4" letterSpacing="0.08em">
+        <TYPE.small fontWeight="600" color="text4">
           REWARD SUMMARY
         </TYPE.small>
         <DataRow name="INITIAL APY" value={`${apy.toSignificant(2)}%`} />

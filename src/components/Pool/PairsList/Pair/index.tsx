@@ -31,7 +31,6 @@ const BadgeText = styled.div`
   font-weight: 600;
   font-size: 9px;
   line-height: 11px;
-  letter-spacing: 0.02em;
   color: ${props => props.theme.green2};
 `
 
@@ -74,7 +73,7 @@ export default function Pair({ token0, token1, usdLiquidity, apy, staked, usdLiq
         </Flex>
         <Flex flexDirection="column">
           <Box>
-            <TYPE.subHeader fontSize="9px" color="text4" lineHeight="14px" letterSpacing="2%" fontWeight="600">
+            <TYPE.subHeader fontSize="9px" color="text4" lineHeight="14px" fontWeight="600">
               ${formatCurrencyAmount(usdLiquidity)} {usdLiquidityText?.toUpperCase() || 'LIQUIDITY'}
             </TYPE.subHeader>
           </Box>

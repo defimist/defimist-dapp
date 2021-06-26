@@ -114,7 +114,7 @@ export function PairSearch({ selectedPair, onPairSelect, onDismiss, isOpen, filt
             onKeyDown={handleEnter}
           />
           <RowBetween>
-            <TYPE.body fontSize="11px" lineHeight="13px" letterSpacing="0.06em">
+            <TYPE.body fontSize="11px" lineHeight="13px">
               NAME
             </TYPE.body>
             <SortButton ascending={invertSearchOrder} toggleSortOrder={() => setInvertSearchOrder(iso => !iso)} />

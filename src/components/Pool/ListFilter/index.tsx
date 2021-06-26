@@ -48,7 +48,7 @@ export default function ListFilter({ disabled, filter, onFilterChange }: ListFil
         </Box>
       </Flex>
       <Box>
-        <Text fontSize="11px" fontWeight="600" lineHeight="11px" letterSpacing="0.08em">
+        <Text fontSize="11px" fontWeight="600" lineHeight="11px">
           SORTING: RELEVANCE
         </Text>
       </Box>

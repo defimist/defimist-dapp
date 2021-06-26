@@ -25,7 +25,7 @@ export default function CommonBases({
   return (
     <AutoColumn gap="md">
       <AutoRow>
-        <TYPE.body fontWeight={500} fontSize="11px" lineHeight="13px" letterSpacing="0.06em">
+        <TYPE.body fontWeight={500} fontSize="11px" lineHeight="13px">
           COMMON BASES
         </TYPE.body>
         <QuestionHelper text="These tokens are commonly paired with other tokens." />

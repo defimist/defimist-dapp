@@ -226,8 +226,8 @@ export default function SettingsTab() {
               />
             </RowBetween>
             <Divider />
-            <RowBetween width="100%" marginBottom="12px">
-              <MenuItem href="https://dmcao.eth.link/" rel="noopener noreferrer" target="_blank">
+            <RowBetween width="100%" marginBottom="12px" style={{ display: 'none' }}>
+              <MenuItem href="https://defimist.com/" rel="noopener noreferrer" target="_blank">
                 <Info size={14} />
                 About
               </MenuItem>
@@ -235,17 +235,15 @@ export default function SettingsTab() {
                 <Code size={14} />
                 Code
               </MenuItem>
-              <MenuItem href="https://discord.com/invite/4QXEJQkvHH">
+              <MenuItem href="https://discord.com">
                 <MessageCircle size={14} />
                 Discord
               </MenuItem>
             </RowBetween>
             <RowBetween alignItems="center" marginBottom="8px">
-              <DefimistVersionLogo />
-              <Divider horizontal style={{ height: 48 }} />
-              <TYPE.body fontWeight={700} fontSize="8px" letterSpacing="3px" color="white">
-                A DMCAO PRODUCT
-              </TYPE.body>
+              <div role="logo-mini">
+                <DefimistVersionLogo />
+              </div>
             </RowBetween>
           </AutoColumn>
         </MenuModalContentWrapper>

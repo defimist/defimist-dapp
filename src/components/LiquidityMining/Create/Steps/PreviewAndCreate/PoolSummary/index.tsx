@@ -18,7 +18,7 @@ export default function PoolSummary({ liquidityPair, startTime, endTime, timeloc
   return (
     <Flex flexDirection="column" justifyContent="stretch" flex="1">
       <AutoColumn gap="8px">
-        <TYPE.small fontWeight="600" color="text4" letterSpacing="0.08em">
+        <TYPE.small fontWeight="600" color="text4">
           POOL SUMMARY
         </TYPE.small>
         <AutoColumn gap="4px">

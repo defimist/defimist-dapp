@@ -128,7 +128,7 @@ export default function RewardAmount({
       <FlexContainer width="100%">
         <Flex flex="1" flexDirection="column">
           <Box mb="16px">
-            <TYPE.small fontWeight="600" color="text4" letterSpacing="0.08em">
+            <TYPE.small fontWeight="600" color="text4">
               TOTAL REWARD
             </TYPE.small>
           </Box>
@@ -144,7 +144,7 @@ export default function RewardAmount({
         </Box>
         <PoolSizeContainer flex="1" flexDirection="column">
           <Box mb="24px">
-            <TYPE.small fontWeight="600" color="text4" letterSpacing="0.08em">
+            <TYPE.small fontWeight="600" color="text4">
               POOL SIZE
             </TYPE.small>
           </Box>

@@ -61,7 +61,6 @@ export const MultihopSwitch = styled.div<{ active: boolean }>`
   font-size: 9px;
   font-weight: 600;
   line-height: 11px;
-  letter-spacing: 0em;
   color: ${props => (props.active ? props.theme.green1 : props.theme.red1)};
   background-color: ${props => transparentize(0.92, props.active ? props.theme.green1 : props.theme.red1)};
   border: solid 1px ${props => (props.active ? props.theme.green1 : props.theme.red1)};

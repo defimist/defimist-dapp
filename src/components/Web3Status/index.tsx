@@ -37,7 +37,7 @@ const ChainLabel: any = {
   [ChainId.RINKEBY]: 'Rinkeby',
   [ChainId.ARBITRUM_TESTNET_V3]: 'Arbitrum',
   [ChainId.SOKOL]: 'Sokol',
-  [ChainId.DM]: 'DM'
+  [ChainId.DM]: 'Defimist'
 }
 
 const IconWrapper = styled.div<{ size?: number | null }>`
@@ -85,7 +85,6 @@ const Web3StatusConnect = styled(Web3StatusGeneric)<{ faded?: boolean }>`
   font-weight: 600;
   font-size: 11px;
   line-height: 13px;
-  letter-spacing: 0.08em;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
   padding: 9px 0px 9px 14px;
@@ -108,7 +107,6 @@ const Web3StatusConnected = styled(Web3StatusGeneric)<{ pending?: boolean }>`
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  letter-spacing: 0.08em;
   transition: background-color 0.3s ease;
   padding: 9px 14px;
 

@@ -47,15 +47,15 @@ export function ImportToken({ tokens, list, onBack, onDismiss, handleCurrencySel
       </PaddedColumn>
       <AutoColumn>
         <AutoColumn gap="16px" style={{ padding: '20px', paddingTop: '12px' }}>
-          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" letterSpacing="-0.02em" color="text4">
+          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" color="text4">
             Anyone can create an ERC20 token on Ethereum with <em>any</em> name, including creating fake versions of
             existing tokens and tokens that claim to represent projects that do not have a token.
           </TYPE.body>
-          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" letterSpacing="-0.02em" color="text4">
+          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" color="text4">
             This interface can load arbitrary tokens by token addresses. Please take extra caution and do your research
             when interacting with arbitrary ERC20 tokens.
           </TYPE.body>
-          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" letterSpacing="-0.02em" color="text4">
+          <TYPE.body fontSize="14px" fontWeight="400" lineHeight="22px" color="text4">
             If you purchase an arbitrary token, <strong>you may be unable to sell it back.</strong>
           </TYPE.body>
         </AutoColumn>

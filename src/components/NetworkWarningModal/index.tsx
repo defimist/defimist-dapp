@@ -70,7 +70,6 @@ export default function NetworkWarningModal() {
                 fontSize="14px"
                 fontWeight="400"
                 lineHeight="22px"
-                letterSpacing="-0.02em"
                 color="text4"
               >
                 You're currently on the wrong network to correctly visualize this page. Please switch to{' '}
@@ -88,7 +87,6 @@ export default function NetworkWarningModal() {
                       fontSize="14px"
                       fontWeight="400"
                       lineHeight="22px"
-                      letterSpacing="-0.02em"
                       color="text4"
                     >
                       To add/switch to the requested network, click the button below.

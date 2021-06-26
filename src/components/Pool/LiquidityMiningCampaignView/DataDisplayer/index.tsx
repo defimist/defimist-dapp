@@ -20,7 +20,6 @@ function DataDisplayer({ title, dataTextSize, data, alignTitleRight, fontWeight,
         textAlign={alignTitleRight ? 'right' : 'left'}
         fontSize="11px"
         lineHeight="13px"
-        letterSpacing="0.06em"
         color="text5"
       >
         {title}

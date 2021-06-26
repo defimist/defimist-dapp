@@ -41,7 +41,6 @@ const HeaderText = styled.div`
 
 const Icon = styled.img`
   width: 24px;
-  border-radius: 50%;
 `
 
 const BadgeWrapper = styled.div`

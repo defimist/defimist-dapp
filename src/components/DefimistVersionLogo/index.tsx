@@ -3,9 +3,7 @@ import styled from 'styled-components'
 import logoImage from '../../assets/images/defimist-logo.png'
 import { version } from '../../../package.json'
 
-const Logo = styled.img.attrs({ src: logoImage })`
-  height: 43px;
-`
+const Logo = styled.img.attrs({ src: logoImage })``
 
 const RelativeContainer = styled.div`
   position: relative;
@@ -21,8 +19,8 @@ const Badge = styled.div`
   border-radius: 4px;
   font-size: 8px;
   font-weight: 700;
-  letter-spacing: 0.16em;
   text-transform: uppercase;
+  display: none;
 `
 
 function DefimistVersionLogo() {

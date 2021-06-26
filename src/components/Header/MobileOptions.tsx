@@ -36,7 +36,7 @@ const StyledNavLink = styled(NavLink).attrs({
   height: 36px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19.5px;
+  line-height: 36px;
 
   &.${activeClassName} {
     font-weight: 600;
@@ -59,7 +59,7 @@ const StyledExternalLink = styled(ExternalLink)`
   color: ${({ theme }) => theme.text5};
   font-weight: 400;
   font-size: 16px;
-  line-height: 19.5px;
+  line-height: 36px;
 
   :hover,
   :focus {
