@@ -240,7 +240,7 @@ function Header({ history }: { history: any }) {
           >
             {t('pool')}
           </StyledNavLink>
-          <StyledNavLinkWithBadge href="/#" onClick={handleDisabledAnchorClick}>
+          <StyledNavLinkWithBadge href="/#" onClick={handleDisabledAnchorClick} style={{ display: 'none' }}>
             <span>{t('governance')}</span>
             <AbsoluteComingSoonBadgeFlex justifyContent="center" width="100%">
               <Box>
@@ -248,7 +248,7 @@ function Header({ history }: { history: any }) {
               </Box>
             </AbsoluteComingSoonBadgeFlex>
           </StyledNavLinkWithBadge>
-          <StyledExternalLink id={`stake-nav-link`} href={`https://stats.defimist.com/#/?chainId=${chainId}`}>
+          <StyledExternalLink id={`stake-nav-link`} href={`https://stats.defimist.com/#/?chainId=${chainId}`} style={{ display: 'none' }}>
             Charts{' '}
             <Text ml="4px" fontSize="11px">
               ↗

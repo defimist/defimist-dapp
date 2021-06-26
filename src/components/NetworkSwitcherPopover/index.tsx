@@ -7,7 +7,6 @@ import { useModalOpen, useCloseModals, useAddPopup } from '../../state/applicati
 
 import EthereumLogo from '../../assets/images/ethereum-logo.png'
 import DMLogo from '../../assets/images/dm-stake-logo.png'
-import ArbitrumLogo from '../../assets/images/arbitrum-logo.jpg'
 import Popover from '../Popover'
 import { useActiveWeb3React } from '../../hooks'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
@@ -70,17 +69,8 @@ export default function NetworkSwitcherPopover({ children }: { children: ReactNo
               onClick={() => {
                 selectNetwork(ChainId.DM)
               }}
-              header={'DM'}
+              header={'Defimist'}
               logoSrc={DMLogo}
-            />
-            <Option
-              onClick={() => {
-                selectNetwork(ChainId.ARBITRUM_TESTNET_V3)
-              }}
-              header={'Arbitrum'}
-              logoSrc={ArbitrumLogo}
-              disabled={true}
-              clickable={false}
             />
           </OptionGrid>
         }

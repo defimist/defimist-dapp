@@ -115,12 +115,12 @@ export default function MobileOptions({ history }: { history: any }) {
               {t('pool')}
             </StyledNavLink>
           </Box>
-          <Box>
+          <Box style={{ display: 'none' }}>
             <DisabledNavLink to="/#" onClick={handleDisabledAnchorClick}>
               {t('governance')} (coming soon)
             </DisabledNavLink>
           </Box>
-          <Box>
+          <Box style={{ display: 'none' }}>
             <StyledExternalLink id={`stake-nav-link`} href={'https://stats.defimist.com/'}>
               Charts <span style={{ fontSize: '11px' }}>↗</span>
             </StyledExternalLink>
