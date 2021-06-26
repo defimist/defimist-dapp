@@ -7,11 +7,11 @@ export const BodyWrapper = styled(DarkCard)<{ tradeDetailsOpen?: boolean }>`
   position: relative;
   max-width: 420px;
   width: 100%;
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 12px;
   transition: box-shadow 0.3s ease;
   ::before {
-    border-radius: 12px;
+    border-radius: 8px;
     background: linear-gradient(
         130.17deg,
         ${props => transparentize(0.75, props.theme.white)} -5.69%,

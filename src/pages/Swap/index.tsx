@@ -43,7 +43,7 @@ import QuestionHelper from '../../components/QuestionHelper'
 
 const RotatedRepeat = styled(Repeat)`
   transform: rotate(90deg);
-  width: 14px;
+  width: 16px;
 `
 
 const SwitchIconContainer = styled.div`

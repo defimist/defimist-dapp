@@ -39,8 +39,8 @@ const Icon = styled.div`
 
 const Checkmark = styled.span<{ checked?: boolean }>`
   position: absolute;
-  top: 1.5px;
-  left: 1.5px;
+  top: 2px;
+  left: 2px;
   height: 8px;
   width: 8px;
   background-color: ${props => (props.checked ? props.theme.white : 'transparent')};

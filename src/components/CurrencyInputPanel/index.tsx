@@ -71,7 +71,7 @@ const Container = styled.div<{ focused: boolean }>`
   height: 80px;
   background-color: ${({ theme }) => theme.bg1And2};
   border: solid 1px ${({ focused, theme }) => (focused ? theme.bg3 : theme.bg1And2)};
-  border-radius: 12px;
+  border-radius: 8px;
   transition: border 0.3s ease;
   padding: 17px 22px;
 `

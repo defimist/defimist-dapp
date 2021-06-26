@@ -15,7 +15,7 @@ import {
 } from 'defimist-sdk'
 import { authereum, injected, walletConnect } from '../connectors'
 import UniswapLogo from '../assets/svg/uniswap-logo.svg'
-import DefimistLogo from '../assets/svg/logo.svg'
+import DefimistLogo from '../assets/images/defimist.png'
 import SushiswapLogo from '../assets/svg/sushiswap-logo.svg'
 import HoneyswapLogo from '../assets/svg/honeyswap-logo.svg'
 import BaoswapLogo from '../assets/images/baoswap-logo.png'
@@ -255,7 +255,7 @@ export const NETWORK_DETAIL: { [chainId: number]: NetworkDetails } = {
       symbol: Currency.DM.symbol || 'DM',
       decimals: Currency.DM.decimals || 18
     },
-    rpcUrls: ['https://rpc.defimist.com/'],
+    rpcUrls: ['https://mainnet.defimist.com/'],
     blockExplorerUrls: ['https://blockscout.com/dm/mainnet'],
     metamaskAddable: true
   }

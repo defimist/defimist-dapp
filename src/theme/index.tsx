@@ -372,7 +372,7 @@ body {
 
 .custom-toast-container {
     box-shadow: 0px 16px 12px ${({ theme }) => transparentize(0.55, theme.boxShadow)};
-    border-radius: 12px !important;
+    border-radius: 8px !important;
 }
 
 .custom-toast-body {

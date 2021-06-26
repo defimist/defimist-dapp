@@ -54,7 +54,7 @@ export const DarkCard = styled(Card)<{ selectable?: boolean }>`
 const BlueCardStyled = styled(Card)`
   background-color: ${({ theme }) => theme.primary5};
   color: ${({ theme }) => theme.primary1};
-  border-radius: 12px;
+  border-radius: 8px;
   width: fit-content;
 `
 

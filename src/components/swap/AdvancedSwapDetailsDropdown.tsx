@@ -38,7 +38,7 @@ const AdvancedDetailsFooter = styled.div<{
   color: ${({ theme }) => theme.purple3};
   background-color: ${props => transparentize(0.45, props.theme.bg1)};
   border: solid 1px #292643;
-  border-radius: 12px;
+  border-radius: 8px;
   backdrop-filter: blur(16px);
   cursor: ${props => (props.clickable ? 'pointer' : 'auto')};
   box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);

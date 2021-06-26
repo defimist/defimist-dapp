@@ -1,6 +1,5 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
-import border8pxRadius from '../../assets/images/border-8px-radius.png'
 import { Colors } from '../../theme/styled'
 
 const ToggleElement = styled.span<{
@@ -14,9 +13,7 @@ const ToggleElement = styled.span<{
   ${({ isActive }) =>
     isActive
       ? css`
-          padding: 0px 2px;
-          border: 8px solid;
-          border-image: url(${border8pxRadius}) 8;
+          padding: 8px 10px;
         `
       : css`
           padding: 8px 10px;
