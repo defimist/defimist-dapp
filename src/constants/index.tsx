@@ -71,12 +71,12 @@ export const WBTC: { [key: number]: Token } = {
 
 export const HONEY = new Token(ChainId.DM, '0x71850b7e9ee3f13ab46d67167341e4bdc905eef9', 18, 'HNY', 'Honey')
 
-export const STAKE = new Token(
+export const DMS = new Token(
   ChainId.DM,
   '0xb7D311E2Eb55F2f68a9440da38e7989210b9A05e',
   18,
-  'STAKE',
-  'Stake Token on DM'
+  'DMS',
+  'Defimist Stake on DM'
 )
 
 export const BAO = new Token(
@@ -110,7 +110,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     USDT[ChainId.DM],
     WBTC[ChainId.DM],
     HONEY,
-    STAKE,
+    DMS,
     AGAVE,
     BAO
   ]
@@ -132,7 +132,7 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.ARBITRUM_TESTNET_V3]: [WETH[ChainId.ARBITRUM_TESTNET_V3]],
   [ChainId.SOKOL]: [Token.WSPOA[ChainId.SOKOL]],
-  [ChainId.DM]: [WDM[ChainId.DM], DMC[ChainId.DM], WETH[ChainId.DM], USDC[ChainId.DM], STAKE]
+  [ChainId.DM]: [WDM[ChainId.DM], DMC[ChainId.DM], WETH[ChainId.DM], USDC[ChainId.DM], DMS]
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
